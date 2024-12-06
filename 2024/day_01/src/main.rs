@@ -4,7 +4,6 @@ use std::fs::File;
 use std::io::{BufRead, BufReader, Result};
 use std::u64;
 
-#[allow(dead_code)]
 fn read_data(file_path: &str) -> Result<(Vec<u64>, Vec<u64>)> {
     let file = File::open(file_path)?;
     let reader = BufReader::new(file);

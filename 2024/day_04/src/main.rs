@@ -1,8 +1,7 @@
 use std::fs::File;
-use std::io::{BufRead, BufReader, Read, Result};
+use std::io::{BufRead, BufReader, Result};
 use std::{isize, usize};
 
-#[allow(dead_code)]
 fn parse_data(file_path: &str) -> Result<Vec<Vec<char>>> {
     let file = File::open(file_path)?;
     let reader = BufReader::new(file);

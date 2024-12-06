@@ -1,7 +1,6 @@
 use std::fs::File;
 use std::io::{Read, Result};
 
-#[allow(dead_code)]
 fn parse_data(file_path: &str) -> Result<()> {
     Ok()
 }

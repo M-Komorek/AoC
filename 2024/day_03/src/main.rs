@@ -1,7 +1,6 @@
 use std::fs;
 use std::io::Result;
 
-#[allow(dead_code)]
 fn parse_data(file_path: &str) -> Result<Vec<char>> {
     let file_content = fs::read_to_string(file_path)?;
     let file_content = file_content.replace('\n', "");

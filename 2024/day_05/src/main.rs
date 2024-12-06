@@ -1,7 +1,6 @@
 use std::fs;
-use std::io::{Read, Result};
+use std::io::Result;
 
-#[allow(dead_code)]
 fn parse_data(file_path: &str) -> Result<(Vec<(u64, u64)>, Vec<Vec<u64>>)> {
     let input = fs::read_to_string(file_path).expect("Failed to read input file");
     let parts: Vec<&str> = input.split("\n\n").collect();
