@@ -5,11 +5,11 @@ fn parse_data(file_path: &str) -> Result<()> {
     Ok()
 }
 
-fn part_1(file_path: &str) -> Result<u64> {
+fn part_1(file_path: &str) -> Result<usize> {
     Ok(0)
 }
 
-fn part_2(file_path: &str) -> Result<u64> {
+fn part_2(file_path: &str) -> Result<usize> {
     Ok(0)
 }
 
